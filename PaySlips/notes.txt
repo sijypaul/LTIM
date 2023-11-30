@@ -1,0 +1,66 @@
+# Creating freestyle jobs ............................................donee
+# Creating different triggers 
+
+	1. build whenever a snapshot dependency is built
+	2. Trigger builds remotely                      ..............donee
+	3. Build after other projects are built		..............donee
+	4. Build periodically                           ..............donee
+	5. Github branches				..............donee
+	6. Github pull requests
+	7. Github hook trigger for GITScm polling
+	8. Poll scm					..............donee
+
+# Create pipelines in blue ocean 			..............donee
+# Creating users, groups and matrix based authorization policies 
+# Write a declarative pipelines in Jenkinsfile - Simple build, Parallel build - Stages, steps, post - Parameters, environment variables - Archieve artifacts - withCredentials, credentials - groovy scripts, groovy functions - build apps using maven and dotnet - Shared library (implicit and explicit) - Whole pipeline as shared library 
+# Uploading the scripts to github 
+# Configuring the pipelines to point to the github repo
+# Creating pipelines ........................donee
+
+
+
+maven project
+	mvn compile,package, clean
+
+
+
+
+
+Exams:;
+
+examtopics
+
+1)copy the url of temprarily restricted page. to get that take the half of the pages and go ahead
+
+https://www.examtopics.com/exams/microsoft/az-204/view/18/
+
+2)log out
+
+3)paste the url back
+
+4)refresh
+
+
+
+
+Jenkins – 201  
+ 
+Case Study – Continuous Integration  
+ 
+Goal 
+Create a build pipeline job  			
+ 
+Details    
+1)	Install build pipeline plugin           .........................donee
+2)	Configure email with Jenkins 		.........................donee
+3)	Create a slave and call it QA environment 
+4)	Create a pipeline job and trigger it when developer commits the code in GIT 
+5)	Build the code using Maven/Ant and send the notification to developer in case of build fail 
+6)	Unit test the code using Junit  
+7)	Do static code analysis using SonarQube, create quality gate to pass to next environment 
+8)	Create the package and store in Artifactory/Nexus 
+9)	Create another job to deploy the code from Artifactory/Nexus to slave QA and host it 
+10)	View the status both upstream and downstream job in the dashboard of Jenkins 
+11)	Fail the build and check if email is triggered 
+12)	Fail the quality gate and check if packaging is failed. 
+
